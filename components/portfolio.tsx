@@ -204,17 +204,17 @@ export default function Portfolio() {
           <h2 className="text-3xl md:text-4xl font-bold mb-8">About Me</h2>
           <div className="space-y-6 text-muted-foreground text-lg leading-relaxed">
             <p>
-              I'm a passionate Frontend Developer with 1+ years of hands-on experience building modern web applications.
+              I&apos;m a passionate Frontend Developer with 1+ years of hands-on experience building modern web applications.
               My expertise spans React.js, Next.js, and TypeScript, with a focus on creating responsive, accessible, and
               performant user interfaces.
             </p>
             <p>
-              Currently, I'm working at <span className="font-semibold text-foreground">Primora and Unityr</span>, where
+              Currently, I&apos;m working at <span className="font-semibold text-foreground">Primora and Unityr</span>, where
               I contribute to building scalable frontend architectures and implementing complex UI features. I have a
               deep understanding of component-driven development, state management, and optimization techniques.
             </p>
             <p>
-              Throughout my career, I've worked on diverse projects—from appointment booking systems with QR integration
+              Throughout my career, I&apos;ve worked on diverse projects—from appointment booking systems with QR integration
               to comprehensive ERP solutions and desktop POS applications. Each project has taught me the importance of
               clean code, user experience, and continuous learning.
             </p>
@@ -518,7 +518,7 @@ export default function Portfolio() {
         <div className="max-w-3xl mx-auto text-center text-white">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Collaborate?</h2>
           <p className="text-lg mb-8 opacity-90">
-            Whether you have a project in mind or just want to discuss possibilities, I'm always open to meaningful
+            Whether you have a project in mind or just want to discuss possibilities, I&apos;m always open to meaningful
             conversations about web development.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -78,7 +78,7 @@ export default function CoverLetter() {
               <p>
                 I am writing to express my strong interest in the Software Engineer position at Wipro Limited. As a
                 dedicated Frontend Developer with hands-on experience in building scalable web applications using
-                React.js, Next.js, and TypeScript, I am excited about the opportunity to contribute to Wipro's
+                React.js, Next.js, and TypeScript, I am excited about the opportunity to contribute to Wipro&apos;s
                 innovative projects and work alongside talented professionals.
               </p>
 
@@ -109,7 +109,7 @@ export default function CoverLetter() {
               </p>
 
               <p>
-                I am particularly drawn to Wipro's reputation for fostering innovation and creating solutions that make
+                I am particularly drawn to Wipro&apos;s reputation for fostering innovation and creating solutions that make
                 a real difference. The opportunity to collaborate with application architects, design complex system
                 components, and support production deployments aligns perfectly with my career aspirations. I am a fast
                 learner with strong problem-solving abilities and thrive in collaborative environments where I can
@@ -125,7 +125,7 @@ export default function CoverLetter() {
 
               <p>
                 Thank you for considering my application. I have attached my resume for your review and would welcome
-                the opportunity to discuss how my experience and skills can contribute to Wipro's continued success. I
+                the opportunity to discuss how my experience and skills can contribute to Wipro&apos;s continued success. I
                 am available for an interview at your earliest convenience.
               </p>
             </div>
