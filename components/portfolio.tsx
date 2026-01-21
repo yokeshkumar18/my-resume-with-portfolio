@@ -293,7 +293,7 @@ export default function Portfolio() {
                       {projects[0].technologies.map((tech, i) => (
                         <span
                           key={i}
-                          className="inline-block bg-muted text-muted-foreground px-3 py-1 rounded text-sm border border-border"
+                          className="inline-block bg-primary/10 text-primary border border-primary/20 px-3 py-1 rounded text-sm font-medium"
                         >
                           {tech}
                         </span>
@@ -335,12 +335,25 @@ export default function Portfolio() {
                   <h3 className="text-lg font-bold mb-2 text-foreground">{project.title}</h3>
                   <p className="text-sm text-muted-foreground mb-4 flex-grow leading-relaxed">{project.description}</p>
 
+                  {/* Highlights/Key Features */}
                   <div className="mb-4">
+                    <div className="flex flex-wrap gap-2 mb-3">
+                      {project.highlights.map((highlight, i) => (
+                        <span
+                          key={i}
+                          className="text-[10px] font-semibold bg-secondary text-secondary-foreground px-2 py-1 rounded-full uppercase tracking-wider"
+                        >
+                          {highlight}
+                        </span>
+                      ))}
+                    </div>
+
+                    {/* Tech Stack - Highlighted */}
                     <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech, i) => (
                         <span
                           key={i}
-                          className="text-xs bg-muted text-muted-foreground px-2 py-1 rounded border border-border"
+                          className="text-xs font-medium bg-primary/10 text-primary border border-primary/20 px-2 py-1 rounded"
                         >
                           {tech}
                         </span>

@@ -91,38 +91,36 @@ export default function Resume() {
 
             {/* Professional Experience */}
             <section className="mb-5">
-              <h2 className="text-sm font-bold text-primary uppercase tracking-wide mb-2">Professional Experience</h2>
+              <h2 className="text-sm font-bold text-primary uppercase tracking-wide mb-4">Professional Experience</h2>
 
               {/* Primora */}
-              <div className="mb-4">
-                <div className="flex justify-between items-baseline mb-1">
-                  <h3 className="font-bold text-slate-900">Frontend Developer Intern</h3>
-                  <span className="text-xs text-slate-600">Nov 2024 - Present</span>
+              <div className="mb-6">
+                <h3 className="text-base font-bold text-slate-900 uppercase mb-1">FRONTEND DEVELOPER INTERN</h3>
+                <div className="flex justify-between items-baseline mb-2">
+                  <span className="text-sm font-bold text-slate-700">Primora Technologies <span className="font-normal text-slate-600">| Nov 2024 – Present</span></span>
                 </div>
-                <p className="text-sm font-semibold text-slate-700 mb-1">Primora Technologies</p>
-                <ul className="list-disc list-inside space-y-0.5 text-sm text-slate-700 ml-1">
-                  <li>Developed production-ready frontend applications using Next.js 15 and TypeScript</li>
-                  <li>Built multi-tenant Appointment Booking System with dynamic subdomains and QR-based check-in</li>
-                  <li>
-                    Engineered frontend of complete ERP system covering inventory, sales, customers, and analytics
-                  </li>
-                  <li>Configured CI/CD pipelines using GitHub Actions</li>
-                  <li>Mentored junior developers and reviewed frontend code quality</li>
+                <ul className="list-disc list-outside space-y-1 text-sm text-slate-700 ml-5">
+                  <li>Worked on frontend development for production web applications using <span className="font-bold text-slate-900">Next.js and TypeScript</span></li>
+                  <li>Contributed to an <span className="font-bold text-slate-900">appointment booking system</span>, including user flows, UI components, and QR-based check-in features</li>
+                  <li>Developed multiple modules for an <span className="font-bold text-slate-900">ERP frontend</span>, supporting inventory, sales, customer management, and reporting screens</li>
+                  <li>Collaborated with backend and design teams to integrate REST APIs and improve application usability</li>
+                  <li>Participated in deployment workflows and assisted with <span className="font-bold text-slate-900">CI/CD processes using GitHub Actions</span></li>
+                  <li>Performed code reviews and collaborated with team members to maintain frontend code quality</li>
                 </ul>
               </div>
 
               {/* Unityr */}
               <div>
-                <div className="flex justify-between items-baseline mb-1">
-                  <h3 className="font-bold text-slate-900">Frontend Developer Intern</h3>
-                  <span className="text-xs text-slate-600">Feb 2024 - Oct 2024</span>
+                <h3 className="text-base font-bold text-slate-900 uppercase mb-1">FRONTEND DEVELOPER INTERN</h3>
+                <div className="flex justify-between items-baseline mb-2">
+                  <span className="text-sm font-bold text-slate-700">Unityr Technologies <span className="font-normal text-slate-600">| Feb 2024 – Oct 2024</span></span>
                 </div>
-                <p className="text-sm font-semibold text-slate-700 mb-1">Unityr Technologies</p>
-                <ul className="list-disc list-inside space-y-0.5 text-sm text-slate-700 ml-1">
-                  <li>Built Conference Management Website with real-time REST API integration</li>
-                  <li>Developed Waitr Restaurant POS using Electron.js and React with offline-first architecture</li>
-                  <li>Implemented offline-first UI architecture for seamless user experience</li>
-                  <li>Worked in Agile development cycles delivering features on schedule</li>
+                <ul className="list-disc list-outside space-y-1 text-sm text-slate-700 ml-5">
+                  <li>Built and maintained frontend features for a <span className="font-bold text-slate-900">conference management web application</span> with real-time API integration</li>
+                  <li>Developed a <span className="font-bold text-slate-900">restaurant POS application</span> using React and Electron.js to support desktop usage</li>
+                  <li>Implemented <span className="font-bold text-slate-900">offline-first UI behavior</span> to ensure basic functionality during network interruptions</li>
+                  <li>Worked in an <span className="font-bold text-slate-900">Agile development environment</span>, delivering assigned tasks within sprint timelines</li>
+                  <li>Coordinated with team members to test, debug, and enhance user experience</li>
                 </ul>
               </div>
             </section>
