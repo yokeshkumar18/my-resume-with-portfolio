@@ -59,10 +59,7 @@ export default function Resume() {
             <section className="mb-5">
               <h2 className="text-sm font-bold text-primary uppercase tracking-wide mb-2">Professional Summary</h2>
               <p className="text-sm text-slate-700 leading-relaxed">
-                Frontend Developer with 1+ year of hands-on internship experience building production-grade web and
-                desktop applications. Strong expertise in React.js, Next.js 15, and TypeScript, with real-world
-                experience delivering ERP systems, appointment booking platforms, and POS applications. Focused on
-                scalable UI architecture, performance, and maintainable frontend systems.
+               Frontend Developer with 1+ year of hands-on experience building and shipping production-grade web and desktop applications. Strong expertise in React.js, Next.js 15, TypeScript, and modern UI architecture. Proven experience developing ERP systems, appointment booking platforms, and POS applications with a focus on scalability, performance, and maintainability.
               </p>
             </section>
 
@@ -76,11 +73,11 @@ export default function Resume() {
                 </div>
                 <div>
                   <span className="font-semibold text-slate-900">Architecture:</span>
-                  <span className="text-slate-700"> Component-Based Design, SSR, RBAC, Offline-first</span>
+                  <span className="text-slate-700"> Component-Based Architecture, Server-Side Rendering (SSR), Role-Based Access Control (RBAC), Offline-First Architecture, State Management, REST API Integration</span>
                 </div>
                 <div>
                   <span className="font-semibold text-slate-900">Libraries:</span>
-                  <span className="text-slate-700"> Context API, RESTful APIs, Electron.js</span>
+                  <span className="text-slate-700"> Context API, Electron.js</span>
                 </div>
                 <div>
                   <span className="font-semibold text-slate-900">Tools:</span>
@@ -97,7 +94,7 @@ export default function Resume() {
               <div className="mb-6">
                 <h3 className="text-base font-bold text-slate-900 uppercase mb-1">FRONTEND DEVELOPER INTERN</h3>
                 <div className="flex justify-between items-baseline mb-2">
-                  <span className="text-sm font-bold text-slate-700">Primora Technologies <span className="font-normal text-slate-600">| Nov 2024 – Present</span></span>
+                  <span className="text-sm font-bold text-slate-700">Softnix Solutions <span className="font-normal text-slate-600">| Nov 2024 – Present</span></span>
                 </div>
                 <ul className="list-disc list-outside space-y-1 text-sm text-slate-700 ml-5">
                   <li>Worked on frontend development for production web applications using <span className="font-bold text-slate-900">Next.js and TypeScript</span></li>
@@ -113,7 +110,7 @@ export default function Resume() {
               <div>
                 <h3 className="text-base font-bold text-slate-900 uppercase mb-1">FRONTEND DEVELOPER INTERN</h3>
                 <div className="flex justify-between items-baseline mb-2">
-                  <span className="text-sm font-bold text-slate-700">Unityr Technologies <span className="font-normal text-slate-600">| Feb 2024 – Oct 2024</span></span>
+                  <span className="text-sm font-bold text-slate-700">Unityr Techlabs<span className="font-normal text-slate-600">| Feb 2024 – Oct 2024</span></span>
                 </div>
                 <ul className="list-disc list-outside space-y-1 text-sm text-slate-700 ml-5">
                   <li>Built and maintained frontend features for a <span className="font-bold text-slate-900">conference management web application</span> with real-time API integration</li>
@@ -131,27 +128,30 @@ export default function Resume() {
 
               <div className="mb-3">
                 <h3 className="font-bold text-slate-900 text-sm">Appointment Booking System</h3>
-                <p className="text-xs text-slate-600 mb-1">Next.js 15, TypeScript, Tailwind CSS</p>
-                <p className="text-sm text-slate-700">
-                  Dynamic subdomains, QR-based check-in, role-based access control for visitor, customer, admin, and
-                  owner portals.
-                </p>
+                <p className="text-xs italic text-slate-600 mb-1">Next.js 15, TypeScript, Tailwind CSS</p>
+                <ul className="list-disc list-outside space-y-1 text-sm text-slate-700 ml-5">
+                  <li>Multi-tenant platform with dynamic subdomains</li>
+                  <li>QR-based visitor check-in system</li>
+                  <li>Role-based dashboards for admin, owner, staff, and customers</li>
+                </ul>
               </div>
 
               <div className="mb-3">
                 <h3 className="font-bold text-slate-900 text-sm">ERP Management System</h3>
-                <p className="text-xs text-slate-600 mb-1">React, Context API, Tailwind CSS</p>
-                <p className="text-sm text-slate-700">
-                  Complete frontend for inventory, sales, customers, and analytics modules with interactive dashboards.
-                </p>
+                <p className="text-xs italic text-slate-600 mb-1">React.js, Context API, Tailwind CSS</p>
+                <ul className="list-disc list-outside space-y-1 text-sm text-slate-700 ml-5">
+                  <li>Complete frontend implementation for inventory, sales, customer management, and analytics</li>
+                  <li>Interactive dashboards with real-time data rendering</li>
+                </ul>
               </div>
 
               <div>
                 <h3 className="font-bold text-slate-900 text-sm">Waitr Restaurant POS</h3>
-                <p className="text-xs text-slate-600 mb-1">Electron.js, React, Offline-first Architecture</p>
-                <p className="text-sm text-slate-700">
-                  Desktop POS application with order-taking, table management, and kitchen display system.
-                </p>
+                <p className="text-xs italic text-slate-600 mb-1">Electron.js, React, Offline-First Architecture</p>
+                <ul className="list-disc list-outside space-y-1 text-sm text-slate-700 ml-5">
+                  <li>Desktop POS system with order management, table handling, and kitchen display</li>
+                  <li>Designed to function seamlessly without internet connectivity</li>
+                </ul>
               </div>
             </section>
 
@@ -173,46 +173,108 @@ export default function Resume() {
           body {
             margin: 0;
             padding: 0;
+            -webkit-print-color-adjust: exact;
           }
           @page {
-            margin: 0.4cm;
+            margin: 0.3cm;
             size: A4;
           }
-          .print\\:hidden {
-            display: none !important;
-          }
-          .print\\:bg-white {
-            background-color: white !important;
-          }
-          .print\\:py-0 {
-            padding-top: 0 !important;
-            padding-bottom: 0 !important;
-          }
-          .print\\:shadow-none {
-            box-shadow: none !important;
-          }
-          .print\\:p-8 {
-            padding: 0.5rem !important;
-          }
-          html,
-          body {
+          
+          /* Hide non-print elements */
+          .print\\:hidden { display: none !important; }
+          
+          /* Container resets */
+          .print\\:bg-white { background-color: white !important; }
+          .print\\:py-0 { padding-top: 0 !important; padding-bottom: 0 !important; }
+          .print\\:shadow-none { box-shadow: none !important; }
+          .print\\:p-8 { padding: 0 !important; }
+          
+          html, body {
             width: 100%;
             height: 100%;
+            overflow: visible;
           }
+          
           .max-w-3xl {
             max-width: 100% !important;
             margin: 0 !important;
           }
-          .shadow-lg {
-            box-shadow: none !important;
+          
+          .shadow-lg { box-shadow: none !important; }
+          .py-8 { padding: 0 !important; }
+          .min-h-screen { min-height: auto !important; }
+
+          /* TEXT SCALING FOR ONE PAGE */
+          h1 {
+            font-size: 1.5rem !important;
+            margin-bottom: 0 !important;
+            line-height: 1 !important;
           }
-          .py-8 {
-            padding-top: 0 !important;
-            padding-bottom: 0 !important;
+          
+          /* Subtitle (Frontend Developer) */
+          header > p.text-lg {
+             font-size: 1rem !important;
+             margin-bottom: 0.25rem !important;
           }
-          .min-h-screen {
-            min-height: auto !important;
+          
+          /* Section Headers */
+          h2 {
+            font-size: 0.9rem !important;
+            margin-bottom: 0.2rem !important;
+            margin-top: 0.5rem !important;
           }
+          
+          /* Job Titles / Project Names */
+          h3 {
+            font-size: 0.85rem !important;
+            margin-bottom: 0 !important;
+          }
+
+          /* General Text Reduction */
+          p, li, span, div {
+             font-size: 0.75rem !important; /* Equivalent to text-xs */
+             line-height: 1.25 !important;
+          }
+          
+          /* Explicitly smaller metadata */
+          .text-xs {
+             font-size: 0.7rem !important;
+          }
+
+          /* SPACING REDUCTION */
+          section.mb-5 {
+            margin-bottom: 0.4rem !important;
+          }
+          
+          header.mb-5 {
+             margin-bottom: 0.4rem !important;
+          }
+          
+          .border-b-2 {
+             margin-bottom: 0.4rem !important;
+             border-bottom-width: 1px !important;
+          }
+          
+          .mb-6 { margin-bottom: 0.25rem !important; } /* Experience blocks */
+          .mb-3 { margin-bottom: 0.2rem !important; }  /* Project blocks */
+          .mb-2 { margin-bottom: 0.1rem !important; }
+          .mb-1 { margin-bottom: 0 !important; }
+          
+          /* Lists: tight packing */
+          ul.space-y-1 > li + li {
+             margin-top: 0 !important;
+          }
+          ul.space-y-1 {
+             margin-top: 0.1rem !important;
+          }
+          
+          /* Skills Grid adjustments */
+          .gap-3 { gap: 0.25rem !important; }
+          .grid-cols-2 { column-gap: 1rem !important; }
+          
+          /* Contact info row */
+          .gap-y-1 { gap: 0 !important; } 
+          header .flex-wrap { gap: 0.5rem !important; row-gap: 0 !important;}
         }
       `}</style>
     </>

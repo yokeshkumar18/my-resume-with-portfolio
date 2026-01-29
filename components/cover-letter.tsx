@@ -83,7 +83,7 @@ export default function CoverLetter() {
               </p>
 
               <p>
-                Currently, I am working as a Frontend Developer at Primora Technologies, where I have been developing
+                Currently, I am working as a Frontend Developer at Softnix Solutions, where I have been developing
                 production-ready applications since November 2025. I have successfully built comprehensive systems
                 including an Appointment Booking Platform with dynamic subdomain routing and role-based portals, and a
                 complete ERP Management System handling inventory, sales, and analytics modules. My expertise in Next.js
@@ -92,7 +92,7 @@ export default function CoverLetter() {
               </p>
 
               <p>
-                Prior to this, I gained valuable experience as a Frontend Developer Intern at Unityr Technologies (Feb
+                Prior to this, I gained valuable experience as a Frontend Developer Intern at Unityr Techlabs (Feb
                 2024 - Oct 2024), where I built a Conference Management Website and developed the Waitr Restaurant POS
                 System using Electron.js. These projects strengthened my ability to create real-time applications with
                 offline-first architecture and responsive UI design. I have consistently delivered applications that
